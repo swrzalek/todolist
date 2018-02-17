@@ -1,0 +1,226 @@
+body  {
+  font-family: Roboto;
+  background: #DC2424;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1  {
+  background: #1abc9c;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+ul  {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.fa-plus  {
+  float:right;
+}
+
+li  {
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+#input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #666;
+  border: 3px solid rgba(0, 0, 0, 0);
+  display: none;
+}
+
+#input:focus {
+background: #fff;
+border:3px solid rgb(26, 188, 156);
+outline: none;
+}
+
+li:nth-child(2n)  {
+  background: #f7f7f7;
+}
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+.botpanel{
+  height: 30px;
+
+
+}
+.trash {
+  background: #1aa58a;
+  height: 40px;
+  margin-right: 0;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+.heart {
+
+  background: #1aa58a;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color:#fb5151;;
+  width: 0;
+  display: inline-block;
+  transition: 0.4s linear;
+  opacity: 0;
+
+}
+
+#container  {
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+
+}
+
+.completed {
+  color:gray;
+  text-decoration: line-through;
+}
+
+#top{
+padding-left:42%;
+  width:auto;
+}
+#top img {
+margin: 0 auto;
+width: 300px;
+
+}
+
+#backcontainer{
+  padding: 1px;
+  margin: 50px auto;
+  width: 400px;
+  background: rgba(19, 35, 47, 0.9);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+#leftcontainer{
+  display: none; 
+
+  padding: 1px;
+  margin: 2px auto;
+  max-width: 400px;
+  height: 200px;
+  background: rgba(19, 35, 47, 0.9);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+          box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+
+}
+
+#leftcontainer div  {
+  margin: 20px 10px 20px 10px;
+  max-width: 400px;
+
+}
+
+h2{
+    color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h2#toptitle{
+max-width: 300px;
+
+}
+
+#success{
+  display: none;
+  margin: 1px auto;
+   text-align: center;
+   background: #2DB565;
+   width: 400px;
+   border-radius: 4px;
+   height: 25px;
+  color: #ffffff;
+  border: 0px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+              0 1px 5px 0 rgba(0,0,0,0.12),
+              0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+::-webkit-datetime-edit { padding: 1em; }
+::-webkit-datetime-edit-fields-wrapper {  }
+::-webkit-datetime-edit-text { color: rgb(26, 165, 138); padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: rgb(26, 165, 138) }
+::-webkit-datetime-edit-day-field { color: rgb(26, 165, 138) }
+::-webkit-datetime-edit-year-field { color: rgb(26, 165, 138) }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { color: rgb(26, 165, 138)}
+
+
+
+button {
+  margin-left: 10%;
+  background: red;
+  border: none;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1abc9c;
+  color: #1abc9c;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+      font-family: 'Roboto', sans-serif;
+
+
+}
+
+button:hover {
+  color: white;
+  background: #1abc9c;
+}
+
+input#datepicker{
+
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+footer {
+  color: #bbbbbb;
+background-color: #212121;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    overflow:hidden;
+}
